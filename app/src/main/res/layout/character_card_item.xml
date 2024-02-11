@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cv_character"
     android:layout_width="match_parent"
-    android:layout_height="245dp"
+    android:layout_height="wrap_content"
     android:background="@android:color/transparent"
     android:orientation="horizontal"
     app:cardBackgroundColor="@android:color/transparent"
@@ -12,7 +12,7 @@
     <LinearLayout
         android:id="@+id/llh_character_body"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:background="@android:color/transparent"
         android:orientation="horizontal">
 
@@ -20,7 +20,7 @@
             android:id="@+id/iv_character_profile"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1.5"
+            android:layout_weight="2.5"
             android:paddingStart="5dp"
             android:src="@drawable/gary_the_snail" />
 
@@ -38,9 +38,10 @@
                 android:id="@+id/tv_character_name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="0.9"
+                android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:fontFamily="cursive"
+                android:gravity="bottom|center"
                 android:paddingTop="3dp"
                 android:text="TextView"
                 android:textColor="@color/design_default_color_primary"
@@ -48,12 +49,13 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_character_description"
+                android:id="@+id/tv_character_short_description"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="0.15"
+                android:layout_weight="0.5"
                 android:background="@android:color/transparent"
                 android:fontFamily="casual"
+                android:gravity="center|top"
                 android:paddingTop="3dp"
                 android:text="TextView"
                 android:textColor="@android:color/holo_orange_dark"

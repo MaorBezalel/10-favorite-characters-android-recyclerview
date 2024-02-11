@@ -8,11 +8,30 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <android.widget.SearchView
+        android:id="@+id/sv_character_search_bar"
         android:layout_width="match_parent"
-        android:layout_height="295dp"
-        app:srcCompat="@drawable/spongebob_squarepants_main_characters" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sv_character_search_bar"
+        android:closeIcon="@drawable/ic_close"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search character here..." />
+
+    <TextView
+        android:id="@+id/tv_failed_search_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:paddingTop="100dp"
+        android:text="No characters found..."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_container"

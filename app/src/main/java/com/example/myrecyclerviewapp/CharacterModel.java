@@ -2,12 +2,14 @@ package com.example.myrecyclerviewapp;
 
 public class CharacterModel {
     private String name;
-    private String description;
+    private String shortDescription;
+    private String longDescription;
     private int profile;
 
-    public CharacterModel(String name, String description, int profile) {
+    public CharacterModel(String name, String shortDescription, String longDescription, int profile) {
         this.name = name;
-        this.description = description;
+        this.shortDescription = shortDescription;
+        this.longDescription = longDescription;
         this.profile = profile;
     }
 
@@ -15,9 +17,9 @@ public class CharacterModel {
         return name;
     }
 
-    public String getDescription() {
-        return description;
-    }
+    public String getShortDescription() { return shortDescription; }
+
+    public String getLongDescription() { return longDescription; }
 
     public int getProfile() {
         return profile;

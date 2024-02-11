@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_character_popup_background"
+    android:orientation="vertical"
+    >
+        <ImageButton
+            android:id="@+id/ib_close_character_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_close"
+            android:background="@android:color/transparent"
+            android:onClick="closeCharacterPopup"
+            android:layout_gravity="end"/>
+        <ImageView
+            android:id="@+id/iv_character_popup_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gary_the_snail" />
+
+        <TextView
+            android:id="@+id/tv_character_popup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/tv_character_popup_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:gravity="top|center"
+            android:text="TextView"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+</LinearLayout>
