@@ -49,7 +49,7 @@ A simple Android Studio app written in Java to exercise RecyclerView. Upon launc
 - [x] Includes a search bar for quickly finding specific characters by name.
 - [x] Allows users to click on a character item to show a popup window with more detailed information about them.
 
-## Getting Started
+## 🏁 Getting Started <a name="getting-started"></a>
 
 To get started with this app, follow these steps:
 
@@ -57,6 +57,6 @@ To get started with this app, follow these steps:
 2. Open the project in Android Studio.
 3. Build and run the app on an Android emulator or physical device.
 
-## License
+## 📄 License <a name="license"></a>
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
