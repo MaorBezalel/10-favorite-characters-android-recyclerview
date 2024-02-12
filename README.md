@@ -13,7 +13,7 @@
 
 ## 🧐 Introduction <a name = "introduction"></a>
 
-A simple Android Studio app written in Java to exercise RecyclerView. Upon launching the app, you will be presented with a list of characters from the SpongeBob SquarePants TV series. You can scroll through the list to view all characters, filter between using a search bar, and tap on them to view more information them.
+A simple Android Studio app written in Java to exercise RecyclerView. Upon launching the app, you will be presented with a list of characters from the SpongeBob SquarePants TV series. You can scroll through the list to view all characters, filter them using a search bar, and tap on any character to view more information about them.
 
 ## ⛏️ Technologies Used
 
